@@ -6,9 +6,9 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
 
-    float moveSpeed = 3f;
-    float moveSpeedFast = 6f;
-    float moveSpeedSlow = 1f;
+    float moveSpeed = 30f;
+    float moveSpeedFast = 20f;
+    float moveSpeedSlow = 7f;
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
